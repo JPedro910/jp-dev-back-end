@@ -6,8 +6,10 @@ describe("Test of environment variable get", () => {
           
 		const email = Helper.getEmailEnvironmentVariable();
 		const password = Helper.getEmailPasswordEnvironmentVariable();
+		const appUrl = Helper.getAppUrlEnvironmentVariable();
         
 		expect(email).not.toBeUndefined();
 		expect(password).not.toBeUndefined();
+		expect(appUrl).not.toBeUndefined();
 	});
 });
