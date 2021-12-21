@@ -6,6 +6,10 @@ class Helper {
 		return process.env.EMAIL;
 	}
 
+	static getMyEmailEnvironmentVariable(){
+		return process.env.MY_EMAIL;
+	}
+
 	static getEmailPasswordEnvironmentVariable(){
 		return process.env.EMAIL_PASSWORD;
 	}
