@@ -1,5 +1,5 @@
 import ISendEmail from "./ISendEmail";
-import Mail from "../../../provider/Mail/Mail";
+import Mail from "../../../providers/Mail/Mail";
 import Helper from "../../../utils/helper/Helper";
 import { MissingParamError } from "../../../utils/errors";
 
